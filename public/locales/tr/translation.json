@@ -1,0 +1,30 @@
+{
+  "number": "sayı",
+  "register_form": "Kayıt Formu",
+  "common": {
+    "register": "Kayıt Ol"
+  },
+  "form_fields": {
+    "email": "Email",
+    "name": "Ad",
+    "surname": "Soyad",
+    "password": "Şifre",
+    "password_repeat": "Şifre Tekrarı",
+    "age": "Yaş"
+  },
+  "languages": {
+    "en": "İngilizce",
+    "tr": "Türkçe"
+  },
+  "validation_messages": {
+    "required": "{{path}} alanı zorunlu bir alandır.",
+    "max": "{{label}} alanı en fazla {{max}} karakter uzunluğunda olmalıdır.",
+    "min": "{{label}} alanı en az {{min}} karakter uzunluğunda olmalıdır.",
+    "email": "{{label}} geçerli bir e-posta olmalı",
+    "moreThan": "{{label}} alanı {{more}} sayısından daha büyük olmalıdır.",
+    "integer": "{{label}} alanı sayı olmak zorundadır.",
+    "notType": "{{path}} alanı {{type}} türünde olmalıdır.",
+    "passwords_must_match": "Şifreler eşleşmemektedir.",
+    "password_regex": "Şifre alanı en az bir büyük harf, bir küçük harf ve #?!@$%^&*- özel karakterlerinden birini içermeli ve 8 karakterden uzun olmalıdır."
+  }
+}

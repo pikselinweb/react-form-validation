@@ -1,0 +1,31 @@
+{
+  "number": "number",
+  "register_form": "Register Form",
+  "common": {
+    "register": "Register"
+  },
+  "form_fields": {
+    "email": "Email",
+    "name": "Name",
+    "surname": "Surname",
+    "password": "Password",
+    "password_repeat": "Password Repeat",
+    "age": "Age"
+  },
+
+  "languages": {
+    "en": "English",
+    "tr": "Turkish"
+  },
+  "validation_messages": {
+    "required": "{{path}} field is a required field.",
+    "max": "{{label}} field should be maximum {{max}} characters long.",
+    "min": "{{label}} field should be minimum {{min}} characters long.",
+    "email": "{{label}} should be a valid email",
+    "moreThan": "{{label}} field should be more than  {{more}}.",
+    "integer": "{{label}} field should be integer.",
+    "notType": "{{path}} should be {{type}}.",
+    "passwords_must_match":"Passwords do not match.",
+    "password_regex": "The password field must contain at least one upper case, one lower case and #? @ $% ^ & * - special characters and must be longer than 8 characters."
+  }
+}
