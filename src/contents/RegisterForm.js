@@ -85,6 +85,7 @@ const RegisterForm = () => {
               {...register("email")}
               variant="outlined"
               fullWidth
+              data-cy="form__email"
             />
           </Grid>
           <Grid item sm={12} md={6}>
@@ -140,14 +141,14 @@ const RegisterForm = () => {
               error={errors.age ? true : false}
               helperText={errors.age?.message}
               name="age"
-              type="number"
+              type="text"
               label={t("form_fields.age")}
               {...register("age")}
               variant="outlined"
             />
           </Grid>
           <Grid item xs={12} textAlign="center">
-            <Button type="submit" variant="contained">
+            <Button type="submit" variant="contained" data-cy="submit-button">
               {t("common.register")}
             </Button>
           </Grid>
