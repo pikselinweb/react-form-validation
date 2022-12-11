@@ -22,5 +22,11 @@ describe('Registration form', () => {
 			cy.get('[data-cy=submit-button]').click();
 			cy.contains('Email should be a valid email').should('not.exist');
 		});
+
+		it('Duplicate test', () => {
+			cy.get('[data-cy=form__email]').click().type('test@email.com');
+			cy.get('[data-cy=submit-button]').click();
+			cy.contains('Email should be a valid email').should('not.exist');
+		});
 	});
 });
